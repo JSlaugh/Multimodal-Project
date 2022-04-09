@@ -1,0 +1,42 @@
+body {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 0.05fr 1fr 0.2fr;
+  background-color: rgb(171, 171, 201);
+}
+
+div {
+  padding-bottom: 1rem;
+  grid-column: 2/5;
+}
+
+.heading {
+  font-weight: normal;
+  font-size: 2rem;
+  font-family: "Anton", sans-serif;
+}
+
+.bodyparagraph {
+  font-size: 1.2rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+.left {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  column-gap: 1rem;
+}
+
+.right {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  column-gap: 1rem;
+}
+iframe {
+  width: 100;
+}
+
+.center {
+  margin: auto;
+}
