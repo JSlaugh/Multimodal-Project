@@ -20,6 +20,7 @@ div {
 .bodyparagraph {
   font-size: 1.2rem;
   font-family: "Roboto Mono", monospace;
+  text-indent: 3.2rem;
 }
 
 .left {
@@ -39,4 +40,15 @@ iframe {
 
 .center {
   margin: auto;
+}
+
+p {
+  margin-left: 0;
+  padding-left: 3.2em;
+  text-indent: -3.2em;
+}
+
+.header {
+  float: left;
+  list-style-type: none;
 }
